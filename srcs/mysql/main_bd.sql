@@ -1,0 +1,4 @@
+CREATE DATABASE wordpress;
+CREATE USER 'rulrike'@'%' IDENTIFIED BY '1234';
+GRANT ALL PRIVILEGES ON wordpress.* TO 'rulrike'@'%';
+FLUSH PRIVILEGES;
